@@ -5,175 +5,281 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700&family=Open+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
-      <div class="my-name">Amelia Qualtrough</div>
+      <div class="my-name"><b>Amelia Qualtrough</b></div>
       <nav class="nav">
-        <div class="nav-item">Home</div>
-        <div class="nav-item">Technical Skills</div>
-        <div class="nav-item">Projects</div>
-        <div class="nav-item">Contact</div>
+        <div class="nav-item"><b>Home</b></div>
+        <div class="nav-item"><b>Technical Skills</b></div>
+        <div class="nav-item"><b>Projects</b></div>
+        <div class="nav-item"><b>Contact</b></div>
       </nav>
     </header>
     <main>
       <div class="intro-container">
-        <h2 class="intro-title">Hi, I'm Amelia</h2>
+        <!-- <h1 class="intro-title">Hi, I'm Amelia &#x1F44B</h1> -->
+        <h1 class="intro-title">Hi, I'm Amelia</h1>
         <div class="intro-main-text">
           I'm a software engineer with a background in data analysis
         </div>
         <div class="intro-sub-text">Actively seeking a developer role</div>
       </div>
       <div class="technical-skills-container">
-        <h3 class="technical-skills-title">Technical Skills</h3>
+        <h2 class="technical-skills-title">Technical Skills</h2>
         <div class="technical-skills-intro">
           I've just completed The Jump Digital School's 12-week full-time,
           full-stack Software Engineering Bootcamp. I graduated in April 2023.
         </div>
         <div class="technical-skills">
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/HTML5.png"
-              alt="HTML5 logo"
-            />
-            <h4 class="technical-skill-title">HTML5</h4>
-            <div class="technical-skill-text">
-              Semantically correct for accessibility and SEO
+          <div class="technical-skills-left">
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/HTML5.png"
+                    alt="HTML5 logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">HTML5</h4>
+              </div>
+              <div class="technical-skill-text">
+                Semantically correct for accessibility and SEO
+              </div>
+            </div>
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/CSS3.png"
+                    alt="CSS3 logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">CSS3</h4>
+              </div>
+              <div class="technical-skill-text">
+                Responsive design, Flexbox & CSS Grid, pre-processors (SASS),
+                and CSS frameworks
+              </div>
+            </div>
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/JavaScript.png"
+                    alt="JavaScript logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">JavaScript</h4>
+              </div>
+              <div class="technical-skill-text">
+                ES6+, AJAX & APIs - REST and GraphQL, Animation (Greensock &
+                Three.js), Graphing (d3.js) & Realtime (websockets and
+                socket.io), Next.js, OAuth
+              </div>
+            </div>
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/React.png"
+                    alt="React logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">React</h4>
+              </div>
+              <div class="technical-skill-text">
+                Hooks, context, Material UI
+              </div>
             </div>
           </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/CSS3.png"
-              alt="CSS3 logo"
-            />
-            <h4 class="technical-skill-title">CSS3</h4>
-            <div class="technical-skill-text">
-              Responsive design, Flexbox & CSS Grid, pre-processors (SASS), and
-              CSS frameworks
+          <div class="technical-skills-right">
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/TypeScript.png"
+                    alt="TypeScript logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">Testing</h4>
+              </div>
+              <div class="technical-skill-text">TypeScript, Cypress, Jest</div>
             </div>
-          </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/JavaScript.png"
-              alt="JavaScript logo"
-            />
-            <h4 class="technical-skill-title">JavaScript</h4>
-            <div class="technical-skill-text">
-              ES6+, AJAX & APIs - REST and GraphQL, Animation (Greensock &
-              Three.js), Graphing (d3.js) & Realtime (websockets and socket.io),
-              Next.js, OAuth
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/Node.png"
+                    alt="Node.js logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">Node.js</h4>
+              </div>
+              <div class="technical-skill-text">Vanilla & Express</div>
             </div>
-          </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/React.png"
-              alt="React logo"
-            />
-            <h4 class="technical-skill-title">React</h4>
-            <div class="technical-skill-text">Hooks, context, Material UI</div>
-          </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/TypeScript.png"
-              alt="TypeScript logo"
-            />
-            <h4 class="technical-skill-title">Testing</h4>
-            <div class="technical-skill-text">TypeScript, Cypress, Jest</div>
-          </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/Node.png"
-              alt="Node.js logo"
-            />
-            <h4 class="technical-skill-title">Node.js</h4>
-            <div class="technical-skill-text">Vanilla & Express</div>
-          </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/MySQL.png"
-              alt="MySQL logo"
-            />
-            <h4 class="technical-skill-title">Databases</h4>
-            <div class="technical-skill-text">
-              MySQL, NoSQL - MongoDB with Mongoose.js, Redis, Firebase
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/MySQL.png"
+                    alt="MySQL logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">Databases</h4>
+              </div>
+              <div class="technical-skill-text">
+                MySQL, NoSQL - MongoDB with Mongoose.js, Redis, Firebase
+              </div>
             </div>
-          </div>
-          <div class="technical-skill">
-            <img
-              class="technical-skill-logo"
-              src="img/Docker.webp"
-              alt="Docker logo"
-            />
-            <h4 class="technical-skill-title">DevOps</h4>
-            <div class="technical-skill-text">
-              Docker & Kubernetes, Vercel (inc. pipelines), serverless (inc.
-              Netlify)
+            <div class="technical-skill">
+              <div class="technical-skill-logo-title">
+                <div class="logo-container">
+                  <img
+                    class="technical-skill-logo"
+                    src="img/Docker.webp"
+                    alt="Docker logo"
+                  />
+                </div>
+                <h4 class="technical-skill-title">DevOps</h4>
+              </div>
+              <div class="technical-skill-text">
+                Docker & Kubernetes, Vercel (inc. pipelines), serverless (inc.
+                Netlify)
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="projects-container">
-        <h3 class="projects-title">My Recent Projects</h3>
-        <div class="projects">
+        <h2 class="projects-title">My Recent Projects</h2>
+        <div class="react-projects">
+          <h3 class="react-projects-title">React projects</h3>
+          <div class="projects">
+            <div class="project">
+              <div class="project-image-container">
+                <img
+                  class="project-image"
+                  src="img/Hospitality Hunt.png"
+                  alt="Hospitality Hunt image"
+                />
+              </div>
+            </div>
+            <h4 class="project-title">Hospitality Hunt</h4>
+            <div class="project-text">
+              Hospitality Hunt is a full-stack React app aiming to link up
+              freelancers looking for jobs in hospitality to businesses that
+              have positions to fill. Users can create a profile and add or
+              browse jobs or freelancers. Some other features are the ability to
+              to add a photo taken with the React webcam, joi validation, search
+              based on location using the OpenWeatherMap API's location
+              services, sending an automatic email to new users using a
+              third-party service
+            </div>
+            <button type="button" class="project-button">Live demo</button>
+            <button type="button" class="project-button">GitHub repo</button>
+          </div>
           <div class="project">
+            <div class="project-image-container">
+              <img
+                class="project-image"
+                src="img/Weather Forecast.png"
+                alt="Weather forecast image"
+              />
+            </div>
+            <h4 class="project-title">Weather Forecast</h4>
+            <div class="project-text">
+              React app that returns the local weather forecast based on either
+              geo-location or location input by the user
+            </div>
+            <button type="button" class="project-button">Live demo</button>
+            <button type="button" class="project-button">GitHub repo</button>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image-container">
             <img
               class="project-image"
               src="img/Four Card Feature.png"
               alt="Four-card feature image"
             />
-            <h4 class="project-title">Four Card Feature</h4>
-            <div class="project-text">
-              Multi-column responsive layout using CSS Flexbox
-            </div>
           </div>
-          <div class="project">
+          <h4 class="project-title">Four Card Feature</h4>
+          <div class="project-text">
+            Multi-column responsive layout using CSS Flexbox
+          </div>
+          <button type="button" class="project-button">Live demo</button>
+          <button type="button" class="project-button">GitHub repo</button>
+        </div>
+        <div class="project">
+          <div class="project-image-container">
             <img
               class="project-image"
               src="img/End of the Road.png"
               alt="End of the Road image"
             />
-            <h4 class="project-title">End of the Road</h4>
-            <div class="project-text">
-              Homage site replicating the End of the Road festival website
-              homepage using HTML and CSS
-            </div>
           </div>
-          <div class="project">
+          <h4 class="project-title">End of the Road</h4>
+          <div class="project-text">
+            Homage site replicating the End of the Road festival website
+            homepage using HTML and CSS
+          </div>
+          <button type="button" class="project-button">Live demo</button>
+          <button type="button" class="project-button">GitHub repo</button>
+        </div>
+        <div class="project">
+          <div class="project-image-container">
             <img
               class="project-image"
               src="img/Rock Paper Scissors.png"
               alt="Rock Paper Scissors image"
             />
-            <h4 class="project-title">Rock Paper Scissors</h4>
-            <div class="project-text">
-              Rock Paper Scissors game using HTML, CSS and JavaScript. Try to
-              beat the computer - first to five wins! This was done based on a
-              freeCodeCamp course
-            </div>
           </div>
-          <div class="project">
+          <h4 class="project-title">Rock Paper Scissors</h4>
+          <div class="project-text">
+            Rock Paper Scissors game using HTML, CSS and JavaScript. Try to beat
+            the computer - first to five wins!
+          </div>
+          <button type="button" class="project-button">Live demo</button>
+          <button type="button" class="project-button">GitHub repo</button>
+        </div>
+        <div class="project">
+          <div class="project-image-container">
             <img
               class="project-image"
               src="img/Etch-A-Sketch.png"
               alt="Etch-A-Sketch image"
             />
-            <h4 class="project-title">Etch-A-Sketch</h4>
-            <div class="project-text">
-              Etch-A-Sketch grid using HTML, CSS and JavaScript. Choose the
-              number of grid cells on the board and draw a picture either in
-              black or in rainbow colours. This was done based on a freeCodeCamp
-              course
-            </div>
           </div>
+          <h4 class="project-title">Etch-A-Sketch</h4>
+          <div class="project-text">
+            Etch-A-Sketch grid using HTML, CSS and JavaScript. Choose the number
+            of grid cells on the board and draw a picture either in black or in
+            rainbow colours.
+          </div>
+          <button type="button" class="project-button">Live demo</button>
+          <button type="button" class="project-button">GitHub repo</button>
         </div>
+      </div>
+
+      <div class="contact-container">
+        <h2 class="contact-title">Get in touch</h2>
+        <div class="contact-main-text">ameliaqualtrough@gmail.com</div>
       </div>
     </main>
   </body>
