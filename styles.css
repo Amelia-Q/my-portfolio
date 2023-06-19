@@ -45,7 +45,7 @@ h1 {
 
 .intro-main-text {
   font-size: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
 }
 
 .intro-sub-text {
@@ -54,7 +54,10 @@ h1 {
 
 h2 {
   font-weight: 1000;
-  font-size: 30px;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 0;
 }
 
 .technical-skills-container {
@@ -97,7 +100,7 @@ h2 {
   margin: auto auto;
 }
 
-h4 {
+h5 {
   font-weight: bolder;
 }
 
@@ -119,6 +122,20 @@ h4 {
   background-color: #f0e6f0;
 }
 
+.project {
+  background-color: #ebedf0;
+  padding: 50px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
 .project-image-container {
   display: flex;
   width: 500px;
@@ -129,10 +146,31 @@ h4 {
   border-width: 15px;
   border-image-source: url(img/border2.jpg);
   border-image-slice: 60 30;
+  /* border: transparent; */
 }
 
 .project-image {
   width: 500px;
+}
+
+.css-projects {
+  background-color: white;
+  margin-left: 0;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-title {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-size: 60px;
+}
+
+.contact-main-text {
+  font-size: 25px;
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width: 900px) {
