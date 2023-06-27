@@ -29,9 +29,10 @@ header {
 
 .intro-container {
   padding-left: 50px;
+  padding-right: 50px;
   padding-top: 120px;
   padding-bottom: 140px;
-  background-color: #f0e6f0;
+  background-color: #e2defc;
 }
 
 h1 {
@@ -81,7 +82,7 @@ h2 {
 }
 
 .logo-container {
-  background-color: #f0e6f0;
+  background-color: #e2defc;
   width: 70px;
   height: 70px;
   display: flex;
@@ -89,6 +90,7 @@ h2 {
   align-items: center;
   border-radius: 10px;
   margin-bottom: 0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .technical-skill-logo {
@@ -113,32 +115,44 @@ h5 {
 }
 
 .projects-container {
-  padding-left: 50px;
-  margin-left: 0;
-  background-color: #f0e6f0;
+  background-color: #e2defc;
 }
 
 .projects-title {
-  background-color: #f0e6f0;
+  background-color: #e2defc;
+  padding-left: 50px;
+  margin-bottom: 0px;
+}
+
+.projects {
+  margin-bottom: 80px;
+}
+
+.react-projects {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .project {
-  background-color: #ebedf0;
+  background-color: #ebeef2;
   padding: 50px;
   margin: 30px;
   border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 h3 {
   font-size: 30px;
   margin: 0;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-bottom: 60px;
+  padding-left: 30px;
+  font-weight: 700;
 }
 
 .project-image-container {
   display: flex;
-  width: 500px;
+  width: 400px;
   align-items: center;
   justify-content: center;
   border-color: black;
@@ -146,16 +160,52 @@ h3 {
   border-width: 15px;
   border-image-source: url(img/border2.jpg);
   border-image-slice: 60 30;
-  /* border: transparent; */
 }
 
 .project-image {
-  width: 500px;
+  width: 400px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.project-text {
+  margin-bottom: 40px;
+}
+
+.project-button {
+  background-color: #bbb;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #999;
 }
 
 .css-projects {
   background-color: white;
   margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 1px;
+}
+
+.js-projects {
+  margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 1px;
 }
 
 .contact-container {
@@ -174,6 +224,47 @@ h3 {
 }
 
 @media screen and (min-width: 900px) {
+  .react-project-image-container {
+    width: 600px;
+  }
+
+  .react-project-image {
+    width: 600px;
+  }
+
+  .other-projects-container {
+    display: flex;
+  }
+
+  .other-project-image-container {
+    width: 300px;
+  }
+
+  .other-project-image {
+    width: 300px;
+  }
+
+  .left-project {
+    margin-right: 10px;
+  }
+
+  .right-project {
+    margin-left: 10px;
+  }
+
+  .other-project {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   h2 {
     font-size: 40px;
   }
@@ -184,5 +275,51 @@ h3 {
 
   .technical-skills-intro {
     font-size: 20px;
+  }
+
+  .react-projects-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .react-project {
+    display: flex;
+    max-width: 1350px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .react-project-text-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .other-projects-container {
+    justify-content: center;
+  }
+
+  .other-project-image-container {
+    width: 400px;
+  }
+
+  .other-project-image {
+    width: 400px;
+  }
+
+  .left-project {
+    margin-right: 40px;
+  }
+
+  .right-project {
+    margin-left: 40px;
+  }
+
+  .other-project {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
