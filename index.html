@@ -18,14 +18,22 @@
     <header>
       <div class="my-name"><b>Amelia Qualtrough</b></div>
       <nav class="nav">
-        <div class="nav-item"><b>Home</b></div>
-        <div class="nav-item"><b>Technical Skills</b></div>
-        <div class="nav-item"><b>Projects</b></div>
-        <div class="nav-item"><b>Contact</b></div>
+        <div class="nav-item">
+          <a href="#intro-container"><b>Home</b></a>
+        </div>
+        <div class="nav-item">
+          <a href="#technical-skills-container"><b>Technical Skills</b></a>
+        </div>
+        <div class="nav-item">
+          <a href="#projects-container"><b>Projects</b></a>
+        </div>
+        <div class="nav-item">
+          <a href="#contact-container"><b>Contact</b></a>
+        </div>
       </nav>
     </header>
     <main>
-      <div class="intro-container">
+      <div class="intro-container" id="intro-container">
         <!-- <h1 class="intro-title">Hi, I'm Amelia &#x1F44B</h1> -->
         <h1 class="intro-title">Hi, I'm Amelia</h1>
         <div class="intro-main-text">
@@ -33,14 +41,14 @@
         </div>
         <div class="intro-sub-text">Actively seeking a developer role</div>
       </div>
-      <div class="technical-skills-container">
+      <div class="technical-skills-container" id="technical-skills-container">
         <h2 class="technical-skills-title">Technical Skills</h2>
         <div class="technical-skills-intro">
           I've just completed The Jump Digital School's 12-week full-time,
           full-stack Software Engineering Bootcamp. I graduated in April 2023.
         </div>
         <div class="technical-skills">
-          <div class="technical-skills-left">
+          <div class="technical-skills-block technical-skills-left">
             <div class="technical-skill">
               <div class="technical-skill-logo-title">
                 <div class="logo-container">
@@ -50,10 +58,10 @@
                     alt="HTML5 logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">HTML5</h4>
+                <!-- <h4 class="technical-skill-title">HTML5</h4> -->
               </div>
               <div class="technical-skill-text">
-                Semantically correct for accessibility and SEO
+                <b>HTML5: </b>Semantically correct for accessibility and SEO
               </div>
             </div>
             <div class="technical-skill">
@@ -65,11 +73,11 @@
                     alt="CSS3 logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">CSS3</h4>
+                <!-- <h4 class="technical-skill-title">CSS3</h4> -->
               </div>
               <div class="technical-skill-text">
-                Responsive design, Flexbox & CSS Grid, pre-processors (SASS),
-                and CSS frameworks
+                <b>CSS3: </b>Responsive design, Flexbox & CSS Grid,
+                pre-processors (SASS), and CSS frameworks
               </div>
             </div>
             <div class="technical-skill">
@@ -81,12 +89,12 @@
                     alt="JavaScript logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">JavaScript</h4>
+                <!-- <h4 class="technical-skill-title">JavaScript</h4> -->
               </div>
               <div class="technical-skill-text">
-                ES6+, AJAX & APIs - REST and GraphQL, Animation (Greensock &
-                Three.js), Graphing (d3.js) & Realtime (websockets and
-                socket.io), Next.js, OAuth
+                <b>JavaScript: </b>ES6+, AJAX & APIs - REST and GraphQL,
+                Animation (Greensock & Three.js), Graphing (d3.js) & Realtime
+                (websockets and socket.io), Next.js, OAuth
               </div>
             </div>
             <div class="technical-skill">
@@ -98,14 +106,14 @@
                     alt="React logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">React</h4>
+                <!-- <h4 class="technical-skill-title">React</h4> -->
               </div>
               <div class="technical-skill-text">
-                Hooks, context, Material UI
+                <b>React: </b>Hooks, context, Material UI
               </div>
             </div>
           </div>
-          <div class="technical-skills-right">
+          <div class="technical-skills-block technical-skills-right">
             <div class="technical-skill">
               <div class="technical-skill-logo-title">
                 <div class="logo-container">
@@ -115,9 +123,11 @@
                     alt="TypeScript logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">Testing</h4>
+                <!-- <h4 class="technical-skill-title">Testing</h4> -->
               </div>
-              <div class="technical-skill-text">TypeScript, Cypress, Jest</div>
+              <div class="technical-skill-text">
+                <b>Testing: </b>TypeScript, Cypress, Jest
+              </div>
             </div>
             <div class="technical-skill">
               <div class="technical-skill-logo-title">
@@ -128,9 +138,11 @@
                     alt="Node.js logo"
                   />
                 </div>
-                <h5 class="technical-skill-title">Node.js</h5>
+                <!-- <h4 class="technical-skill-title">Node.js</h4> -->
               </div>
-              <div class="technical-skill-text">Vanilla & Express</div>
+              <div class="technical-skill-text">
+                <b>Node.js: </b>Vanilla & Express
+              </div>
             </div>
             <div class="technical-skill">
               <div class="technical-skill-logo-title">
@@ -141,10 +153,11 @@
                     alt="MySQL logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">Databases</h4>
+                <!-- <h4 class="technical-skill-title">Databases</h4> -->
               </div>
               <div class="technical-skill-text">
-                MySQL, NoSQL - MongoDB with Mongoose.js, Redis, Firebase
+                <b>Databases: </b>MySQL, NoSQL - MongoDB with Mongoose.js,
+                Redis, Firebase
               </div>
             </div>
             <div class="technical-skill">
@@ -156,17 +169,17 @@
                     alt="Docker logo"
                   />
                 </div>
-                <h4 class="technical-skill-title">DevOps</h4>
+                <!-- <h4 class="technical-skill-title">DevOps</h4> -->
               </div>
               <div class="technical-skill-text">
-                Docker & Kubernetes, Vercel (inc. pipelines), serverless (inc.
-                Netlify)
+                <b>DevOps: </b>Docker & Kubernetes, Vercel (inc. pipelines),
+                serverless (inc. Netlify)
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="projects-container">
+      <div class="projects-container" id="projects-container">
         <h2 class="projects-title">My Recent Projects</h2>
         <div class="react-projects">
           <h3 class="react-projects-title">React projects</h3>
@@ -330,10 +343,13 @@
           </div>
         </div>
       </div>
-
-      <div class="contact-container">
+      <div class="contact-container" id="contact-container">
         <h2 class="contact-title">Get in touch</h2>
-        <div class="contact-main-text">ameliaqualtrough@gmail.com</div>
+        <div class="contact-main-text">
+          <a href="mailto:ameliaqualtrough@gmail.com"
+            >ameliaqualtrough@gmail.com</a
+          >
+        </div>
       </div>
     </main>
   </body>
