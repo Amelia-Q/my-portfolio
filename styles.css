@@ -9,9 +9,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 8px;
 }
 
 .nav {
@@ -34,32 +34,39 @@ a {
 .nav-item {
   margin-left: 15px;
   text-decoration: none;
+  text-align: center;
 }
 
 .intro-container {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 120px;
-  padding-bottom: 140px;
-  background-color: #e2defc;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  /* background-color: #f5f0f5; */
+  background-color: #f7f7f7;
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .intro-title {
   font-weight: 1200;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 
 .intro-main-text {
   font-size: 20px;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 .intro-sub-text {
   font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.img-amelia {
+  width: 150px;
 }
 
 h2 {
@@ -71,18 +78,18 @@ h2 {
 }
 
 .technical-skills-container {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
   justify-content: left;
 }
 
 .technical-skills-intro {
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .technical-skills {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .technical-skills-block {
@@ -97,7 +104,7 @@ h2 {
   /* display: flex; */
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 30px;
+  gap: 15px;
 }
 
 /* .technical-skill-logo-title {
@@ -112,10 +119,11 @@ h2 {
 }
 
 .logo-container {
-  background-color: #e2defc;
-  width: 70px;
+  /* background-color: #e2defc; */
+  background-color: #e4e6e7;
+  width: 50px;
   /* width: 100%; */
-  height: 70px;
+  height: 50px;
   /* height: auto; */
   display: flex;
   justify-content: center;
@@ -127,8 +135,8 @@ h2 {
 
 .technical-skill-logo {
   display: block;
-  max-width: 60px;
-  max-height: 50px;
+  max-width: 45px;
+  max-height: 35px;
   width: auto;
   height: auto;
   margin: auto auto;
@@ -146,31 +154,39 @@ h2 {
   grid-column: 2;
   margin-top: auto;
   margin-bottom: auto;
+  font-size: 9px;
 }
 
 .projects-container {
-  background-color: #e2defc;
+  /* background-color: #f5f0f5; */
+  /* background-color: #b8b1c9; */
+  background-color: #f7f7f7;
 }
 
 .projects-title {
-  background-color: #e2defc;
-  padding-left: 50px;
+  background-color: #f7f7f7;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-bottom: 0px;
 }
 
 .projects {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .react-projects {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .project {
-  background-color: #ebeef2;
-  padding: 50px;
-  margin: 30px;
+  /* background-color: #ebeef2; */
+  /* background-color: #b8b1c9; */
+  background-color: #e4e6e7;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* margin: 30px; */
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -178,26 +194,26 @@ h2 {
 h3 {
   font-size: 15px;
   margin: 0;
-  padding-top: 80px;
-  padding-bottom: 60px;
-  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  /* padding-left: 30px; */
   font-weight: 700;
 }
 
 .project-image-container {
   display: flex;
-  width: 160px;
+  width: 130px;
   align-items: center;
   justify-content: center;
   border-color: black;
   border-style: solid;
-  border-width: 15px;
+  border-width: 5px;
   border-image-source: url(img/border2.jpg);
   border-image-slice: 60 30;
 }
 
 .project-image {
-  width: 160px;
+  width: 130px;
 }
 
 h4 {
@@ -214,13 +230,14 @@ h4 {
   background-color: #bbb;
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 6px 12px;
   border-radius: 4px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 8px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  margin-bottom: 6px;
 }
 
 .project-button:hover {
@@ -247,14 +264,14 @@ h4 {
 }
 
 .contact-title {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin-top: 30px;
+  margin-bottom: 50px;
   font-size: 30px;
 }
 
 .contact-main-text {
   font-size: 15px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 @media screen and (min-width: 600px) {
@@ -272,28 +289,108 @@ h4 {
     font-size: 50px;
   }
 
+  .intro-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
+
+  .intro-title {
+    margin-bottom: 150px;
+  }
+
   .intro-main-text {
     font-size: 30px;
+    margin-bottom: 70px;
   }
 
   .intro-sub-text {
     font-size: 20px;
+    padding-bottom: 90px;
+  }
+
+  .img-amelia {
+    width: 250px;
   }
 
   h2 {
     font-size: 30px;
   }
 
+  .technical-skills-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .technical-skills-intro {
+    margin-bottom: 100px;
+  }
+
+  .technical-skills {
+    margin-bottom: 80px;
+  }
+
+  .technical-skill {
+    gap: 30px;
+  }
+
+  .logo-container {
+    width: 70px;
+    height: 70px;
+  }
+
+  .technical-skill-logo {
+    max-width: 60px;
+    max-height: 50px;
+  }
+
+  .technical-skill-text {
+    font-size: 12px;
+  }
+
+  .projects {
+    margin-bottom: 80px;
+  }
+
+  .react-projects {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .project {
+    margin: 30px;
+    padding: 50px;
+  }
+
   h3 {
     font-size: 20px;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .project-image-container {
+    border-width: 8px;
+  }
+
+  .projects-title {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   h4 {
     font-size: 15px;
   }
 
+  .project-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
   .react-project-image-container {
     width: 400px;
+    border-width: 8px;
   }
 
   .react-project-image {
@@ -310,40 +407,52 @@ h4 {
 
   .contact-title {
     font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 80px;
   }
 
   .contact-main-text {
     font-size: 20px;
+    margin-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 900px) {
   body {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   header {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .nav-item {
     margin-left: 30px;
   }
 
+  .intro-container {
+    padding-bottom: 100px;
+  }
+
   h1 {
-    font-size: 75px;
+    font-size: 65px;
   }
 
   .intro-main-text {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   .intro-sub-text {
     font-size: 25px;
+    padding-bottom: 120px;
+  }
+
+  .img-amelia {
+    width: 320px;
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 36px;
   }
 
   h3 {
@@ -356,6 +465,15 @@ h4 {
 
   .technical-skills {
     display: flex;
+  }
+
+  .technical-skills-block {
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .technical-skills-right {
+    margin-left: 20px;
   }
 
   .react-project-image-container {
@@ -407,16 +525,36 @@ h4 {
 }
 
 @media screen and (min-width: 1200px) {
-  h2 {
-    font-size: 40px;
-  }
-
   /* .technical-skills {
     display: flex;
   } */
 
+  .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .img-amelia {
+    margin-left: 70px;
+    margin-right: 70px;
+    width: 350px;
+  }
+
+  .intro-sub-text {
+    padding-bottom: 0px;
+  }
+
+  .intro-container {
+    padding-bottom: 140px;
+  }
+
   .technical-skills-intro {
     font-size: 20px;
+  }
+
+  .technical-skill-text {
+    font-size: 15px;
   }
 
   .react-projects-container {
