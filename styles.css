@@ -3,7 +3,7 @@ body {
   padding: 0;
   /* font-family: "Open Sans", sans-serif; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 header {
@@ -154,7 +154,7 @@ h2 {
   grid-column: 2;
   margin-top: auto;
   margin-bottom: auto;
-  font-size: 9px;
+  /* font-size: 9px; */
 }
 
 .projects-container {
@@ -227,7 +227,8 @@ h4 {
 }
 
 .project-button {
-  background-color: #bbb;
+  /* background-color: #bbb; */
+  background-color: #575757;
   color: #fff;
   border: none;
   padding: 6px 12px;
@@ -238,6 +239,10 @@ h4 {
   font-weight: bold;
   transition: background-color 0.3s ease;
   margin-bottom: 6px;
+}
+
+.button-link {
+  color: #fff;
 }
 
 .project-button:hover {
@@ -292,8 +297,8 @@ h4 {
   .intro-container {
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 80px;
   }
 
   .intro-title {
@@ -307,7 +312,8 @@ h4 {
 
   .intro-sub-text {
     font-size: 20px;
-    padding-bottom: 90px;
+
+    /* padding-bottom: 90px; */
   }
 
   .img-amelia {
@@ -431,24 +437,29 @@ h4 {
   }
 
   .intro-container {
-    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   h1 {
-    font-size: 65px;
+    font-size: 52px;
   }
 
   .intro-main-text {
-    font-size: 36px;
+    font-size: 32px;
   }
 
   .intro-sub-text {
     font-size: 25px;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
+    /* padding-bottom: 120px; */
   }
 
   .img-amelia {
-    width: 320px;
+    margin-left: 46px;
+    margin-right: 40px;
+    width: 300px;
   }
 
   h2 {
@@ -529,25 +540,27 @@ h4 {
     display: flex;
   } */
 
-  .intro-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  h1 {
+    font-size: 65px;
+  }
+
+  .intro-main-text {
+    font-size: 36px;
   }
 
   .img-amelia {
+    width: 350px;
     margin-left: 70px;
     margin-right: 70px;
-    width: 350px;
   }
 
   .intro-sub-text {
     padding-bottom: 0px;
   }
 
-  .intro-container {
+  /* .intro-container {
     padding-bottom: 140px;
-  }
+  } */
 
   .technical-skills-intro {
     font-size: 20px;
