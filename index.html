@@ -18,6 +18,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        var link = parent.document.createElement("link");
+        link.type = "image/x-icon";
+        link.rel = "shortcut icon";
+        link.href = "https://candid-cobbler-65cd4f.netlify.app/favicon.ico";
+        parent.document.getElementsByTagName("head")[0].appendChild(link);
+      })();
+    </script>
   </head>
   <body>
     <header>
